@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { deleteTask } from './actions/taskActions';
+import { deleteTask } from './Redux/action';
 
 const TaskList = () => {
   const tasks = useSelector(state => state.tasks);

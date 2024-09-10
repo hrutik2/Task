@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { Provider } from 'react-redux';
-import store from './store';
+
 
 const TaskForm = lazy(() => import('./task'));
 const TaskList = lazy(() => import('./tasklist'));
